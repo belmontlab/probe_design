@@ -1,0 +1,5 @@
+hub probe_design
+shortLabel DCLD oligo library design
+longLabel USCS Hub for oligo-library design of the DCLD and control probes for compaction FISH experiment in K562
+genomesFile genomes.txt
+email omid.alamdari@gmail.com

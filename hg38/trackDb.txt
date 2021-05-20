@@ -1,0 +1,41 @@
+track SON_R1T1_smth
+bigDataUrl K562_TSA_c1r1t1_SON_smth.bw
+shortLabel SON smth
+longLabel K562 SON TSA-seq smoothed with polynomials rep1-tech1 
+type bigWig
+
+track mean_slp
+bigDataUrl TSA_slp_merge_by_mean_pct.bw
+shortLabel Mean slope
+longLabel K562 average of all TSA-seq slope datasets (percentile)
+type bigWig
+
+track high_slope_mean
+bigDataUrl merge_by_mean_slp90.bb
+shortLabel High-slope mean
+longLabel K562 high-slope domains (top decile of mean slope)
+type bigBed
+
+track K562_EV1
+bigDataUrl k562_hic_eigenvector_10kb.cis-420kb-smth.bw
+shortLabel K562_EV1_smth
+longLabel K562 EV1 calculated at 10kb and smoothed at 420kb
+type bigWig 
+
+track cluster_info
+bigDataUrl cluster_info.bb
+shortLabel cluster numbers
+longLabel Cluster information (see figure 4 of the papers for more detail)
+type bigBed
+
+track Library
+bigDataUrl rev_lib_des_200_srt.bb
+shortLabel Lib_design
+longLabel Designed library
+type bigBed
+
+track K562_h3k4me1_10kb
+bigDataUrl h3k4me1_10kb.bw
+shortLabel K562_h3k4me1_10kb
+longLabel K562 h3k4me1 binned at 10kbp
+type bigWig 
