@@ -1,2 +1,2 @@
 genome hg38
-trackDb https://raw.githubusercontent.com/belmontlab/compaction_paper_hub/main/hg38/trackDb.txt
+https://raw.githubusercontent.com/belmontlab/probe_design/main/hg38/trackDb.txt
