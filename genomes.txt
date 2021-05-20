@@ -1,2 +1,2 @@
 genome hg38
-https://raw.githubusercontent.com/belmontlab/probe_design/main/hg38/trackDb.txt
+trackDb https://raw.githubusercontent.com/belmontlab/probe_design/main/hg38/trackDb.txt
